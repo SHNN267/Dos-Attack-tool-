@@ -1,6 +1,7 @@
 Instructions for Using the Tool to Perform a Denial of Service Attack
 
-    Note: Ensure that the name of the external network card used is "wlan1" before starting.
+    Note2: Ensure that the name of the external network card used is "wlan1" before starting.
+    Note1: run on your bash "chmod +x code" and if want to run this tools from anywhere in your kali write in your cmd "mv code /usr/local/bin"
 
 Step 1:
 Run the tool by executing the command "bash deauth" and then enter your computer's username.

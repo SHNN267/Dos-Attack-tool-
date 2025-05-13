@@ -5,6 +5,30 @@ RED='\033[31m'
 GREEN='\033[32m'
 NC='\033[0m'
 
+#!/bin/bash
+clear
+echo -e "\e[31m" 
+
+echo "       .-'      '-."
+echo "     .'            '."
+echo "    /   O      O     \\"
+echo "   :                :"
+echo "   |                |"
+echo "   : ',          ,' :"
+echo "    \\  '-......-'  /"
+echo "     '.          .'"
+echo "       '-......-'"
+echo "        .----."
+echo "     _.'      '._"
+echo "   .' |  X  X  | '.     <<< WiFi Disconnected"
+echo "  /   |   ||   |   \\"
+echo "  '.__|___||___|__.'"
+
+echo -e "\e[0m"      
+echo
+echo -e "\e[34mGitHub:\e[0m https://github.com/SHNN267"    
+
+
 read -p "$(echo -e "${YELLOW} enter your username on kali is : ${NC}")" username
 mkdir -m 777 /home/$username/Desktop/deauth
 
